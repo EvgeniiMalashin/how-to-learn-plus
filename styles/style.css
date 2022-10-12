@@ -1,4 +1,14 @@
+@import url(/blocks/header/header.css);
+@import url(/blocks/logo/logo.css);
+@import url(/blocks/logo/_place/logo_place_footer.css);
+@import url(/blocks/logo/_place/logo_place_header.css);
+@import url(/blocks/header/__title/header__title.css);
+@import url(/blocks/header/__subtitle/header__subtitle.css);
+@import url(/blocks/header/__main-illustrator/header__main-illustrator.css);
+@import url(/blocks/header/__square-pic/header__square-pic.css);
+@import url(/blocks/header/__link/header__link.css);
 .page {
+  position: relative;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -6,16 +16,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter','Arial', sans-serif;
 }
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -29,3 +31,7 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.p_fat {
+  font-weight: 800;
+}
+
