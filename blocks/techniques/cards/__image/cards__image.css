@@ -1,0 +1,9 @@
+.cards__image {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  overflow: hidden;
+  align-content: center;
+  margin: 40px 60px 43px;
+}
