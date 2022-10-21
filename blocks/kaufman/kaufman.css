@@ -1,4 +1,5 @@
 .kaufman {
+  position: relative;
   background-color: #1f1f1f;
   display: flex;
   margin: auto;
@@ -7,4 +8,5 @@
   margin-bottom: 100px;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
