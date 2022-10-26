@@ -2,7 +2,10 @@
   margin-right: 20px;
   width: 515px;
   height: 316px;
-  border: 1px solid rebeccapurple;
+  border-width: 0;
+  border-style: none;
+  border-color: white;
+  border-image: none;
 }
 .video__iframe:last-of-type {
   margin-right: 0;

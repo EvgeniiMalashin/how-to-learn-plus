@@ -1,8 +1,4 @@
 .opacity:hover {
-  animation: opacity 2s linear forwards;
-}
-
-@keyframes opacity {
-  from {opacity: 1;}
-  to {opacity: 0.5;}
+  opacity: 0.5;
+  transition: 2s;
 }

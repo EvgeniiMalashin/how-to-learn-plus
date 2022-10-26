@@ -1,5 +1,5 @@
-.footer__columns {
+.two-columns {
+  width: 80%;
   display: flex;
-  width: 90%;
   justify-content: space-between;
 }

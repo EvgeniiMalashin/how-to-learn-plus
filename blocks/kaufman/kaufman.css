@@ -2,10 +2,6 @@
   position: relative;
   background-color: #1f1f1f;
   display: flex;
-  margin: auto;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  margin-bottom: 100px;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
